@@ -1,0 +1,105 @@
+/* General Styling */
+body{
+    background-color:rgba(0, 0, 0, 0.06);
+}
+.Hallen-Logo {
+    background: url("../Images/Hallen-Wide-Logo-196w-87h.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 83%; 
+    text-indent: -9999px;
+    width: 200px; 
+    height: 80px;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 300px; 
+    width: 100%;
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
+}
+.map{
+    position: absolute;
+    z-index: -1; 
+    height: 300px; 
+    width: 100%;
+    top: 120px;
+    right:0;
+}
+.copyright{
+    padding-top: 20px;
+    text-align: center;
+    font-size: .8em;
+    color: rgb(82, 82, 82);
+}
+.hallen-bg-orange{
+    background-color: #ed900b;
+}
+
+/* Dashboard Input Styling */
+.Insert-Input {
+    outline: none;
+	height: 30px;
+	width: 100%;
+	border: 1px solid #a4a4a4;
+	border-radius: 3px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+.Insert-Input:hover { 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3 ); 
+    border-radius: 5px;
+}
+.Edit-Input {
+    outline: none;
+	height: 35px;
+	width: 100%;
+	border: 1px solid #a4a4a4;
+	border-radius: 3px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+.Edit-Input:hover { 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3 ); 
+    border-radius: 5px;
+}
+iframe{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.hp-images{
+    margin: auto;
+}
+.hp-images img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.hp-images img{ 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ed900b;
+    width: 90%;
+    height:100%;
+    opacity: 0;
+    margin:auto;
+    transition: .5s ease;
+}
+.col-3:hover .overlay {
+    opacity: .9;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+}
+#map {
+    width: 100%;
+}
